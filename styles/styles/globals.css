@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Variables pour mode clair/sombre si besoin plus tard */
+:root {
+  --bg: #0E1116;
+  --surface: #111827;
+  --text: #E5F2F4;
+  --primary: #4F46E5;
+  --muted: #94A3B8;
+  --border: #1F2937;
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--text);
+}
